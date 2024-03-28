@@ -38,7 +38,7 @@ export default function ContactUs(){
                 <label>Message: </label>
                 <textarea   name="message"
                             value={message}
-                            onchange={(e) =>setMessage(e.target.value)}></textarea>
+                            onChange={(e) =>setMessage(e.target.value)}/>
             </div>
             <input type="submit" onClick={submitForm}></input>
         </>

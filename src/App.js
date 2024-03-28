@@ -14,7 +14,7 @@ function App() {
             <li><Link to="/">Home</Link></li>
             <li><Link to="/about">About Us</Link></li>
             <li><Link to="/contact">Contact Us</Link></li>
-            <li><Link to="/post">Post Page</Link></li>
+            <li><Link to="/posts">Post Page</Link></li>
           </ul>
         </nav>
         <Routes>
@@ -22,7 +22,7 @@ function App() {
           <Route path="/about" element={<AboutUs/>}/>
           <Route path="/contact" element={<ContactUs/>}/>
           <Route path="/submitform" element={<SubmittedForm/>}/>
-          <Route path="/post/:id" element={<PostPage/>}/>
+          <Route path="/posts" element={<PostPage/>}/>
         </Routes>
     </Router>
   );
